@@ -2,7 +2,7 @@
     function $() {
         return Array.prototype.slice.call(document.querySelectorAll.apply(document, arguments));
     }
-
+    
     $('body > .navbar, body > .section, body > .footer').forEach(function (element) {
         element.style.transition = '0s';
         element.style.opacity = '0';

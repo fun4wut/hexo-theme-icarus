@@ -10,9 +10,9 @@
             case 1:
                 return 'is-12';
             case 2:
-                return 'is-8-tablet is-8-desktop is-8-widescreen';
+                return 'is-10-tablet is-10-desktop is-8-widescreen';
             case 3:
-                return 'is-8-tablet is-8-desktop is-6-widescreen'
+                return 'is-10-tablet is-10-desktop is-8-widescreen'
         }
         return '';
     } %>
@@ -23,7 +23,7 @@
                 <%- partial('common/widget', { position: 'left' }) %>
                 <%- partial('common/widget', { position: 'right' }) %>
             </div>
-        </div>
+        </div>  
     </section>
     <%- partial('common/footer') %>
     <%- partial('common/scripts') %>
